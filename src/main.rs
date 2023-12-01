@@ -197,8 +197,9 @@ let client = reqwest::Client::builder()
 // println!("{:?}", ip);
 
 println!("A2");
+// ERROR HERE --
+let res: ApiData2 = serde_json::from_str(&response_body)?;
 
-let res: ApiData2 = serde_json::from_str()?;
 // https://stackoverflow.com/questions/65757876/how-to-fix-reqwest-json-decode-errors
 println!("A3");
         // let resA = reqwest::get(url).await?;

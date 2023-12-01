@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"name": "stablecoin1",
+			"path": "../stablecoin1"
+		},
+		{
+			"name": "Bitcoin-Backed-Stablecoin",
+			"path": "../Bitcoin-Backed-Stablecoin"
+		}
+	],
+	"settings": {}
+}
